@@ -41,3 +41,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
 gem 'devise'
+gem 'gravatarify', '~> 3.0.0'
