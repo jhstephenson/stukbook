@@ -1,6 +1,12 @@
 class UsersController < ApplicationController
   before_action :set_user, only:[:show]
+  
+	def index
+		@user = User.all
+	end
+  
   def show
+  
   end
 
   private
@@ -8,4 +14,5 @@ class UsersController < ApplicationController
   def set_user
   	@user = User. find_by(username: params[:id])
   end
+  
 end
